@@ -12,7 +12,7 @@ class Car extends Vehicle {
     
     getMissingQuantityFromTank (){
          let fuel =  this.tankCapacity - this.currentFuelQuantity;
-         console.log(`You need ${fuel} liters to fill up your tank!`)
+        console.log(`You need ${fuel} liters to fill up your tank!`);
     }
 }
 
