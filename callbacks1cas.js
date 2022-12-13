@@ -16,4 +16,3 @@ const promise2 = new Promise(function(resolve, reject) {
     function(error) { console.log(error); }
   );
 
-  
