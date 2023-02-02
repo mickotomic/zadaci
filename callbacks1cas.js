@@ -6,11 +6,10 @@ const promise2 = new Promise(function(resolve, reject) {
         resolve(file.toString());
       } 
     } catch(e) {
-        reject("File not Found");
+        reject("File not exist");
       }
 
   });
-  
   promise2.then(
     function(value) { console.log(value); },
     function(error) { console.log(error); }
